@@ -1,0 +1,12 @@
+go 1.18
+
+// Reference: https://go.dev/doc/tutorial/workspaces
+
+use (
+	./99-advanced/creational-design-patterns/abstractfactory
+	./99-advanced/creational-design-patterns/builder
+	./99-advanced/creational-design-patterns/factory
+	./99-advanced/encapsulation
+	./99-advanced/structural-design-patterns/adapter
+	./99-advanced/structural-design-patterns/decorator
+)

@@ -62,11 +62,12 @@ type MyDrawing struct {
 }
 
 func (drawing MyDrawing) Area() float64 {
-	totalArea := 0.0
-	for _, s := range drawing.shapes {
-		totalArea += s.Area()
-	}
-	return totalArea
+	// totalArea := 0.0
+	// for _, s := range drawing.shapes {
+	// 	totalArea += s.Area()
+	// }
+	// return totalArea
+	return CalculateTotalArea(drawing.shapes...)
 }
 
 // ==================================================================

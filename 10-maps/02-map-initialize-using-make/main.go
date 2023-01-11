@@ -16,6 +16,7 @@ func main() {
 	// make() function returns an initialized and ready to use map.
 	// Since it is initialized, you can add new keys to it.
 	m["one hundred"] = 100
+	m["two hundred"] = 200
 	fmt.Println(m)
 
 }

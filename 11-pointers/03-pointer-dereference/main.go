@@ -13,4 +13,5 @@ func main() {
 	// Changing the value stored in the pointed variable through the pointer
 	*p = 2000
 	fmt.Println("a (after) = ", a)
+	fmt.Println("*p (after) =", *p)
 }

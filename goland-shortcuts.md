@@ -101,14 +101,14 @@
 `⌘ 7`
 #### Show Find
 `⌘ 8`
-#### Show Services
-`⌘ 9`
 #### Split and move right
 `⌃ S`
 #### Un-split all
 `⌃ U`
 #### Type info
 `⌃ ⇧ T`
+#### Enable soft-wrap
+`⇧ ⇧` > `soft-wrap`
 
 
 ## TESTING
@@ -130,10 +130,18 @@
 ## VERSION CONTROL
 #### VCS pop-up
 `⌃ V`
+#### Fetch
+`⌃ ⇧ F`
 #### Commit
-`⌘ K`
+`⌘ K` 
+#### Review changes flow
+`⌘ K` > `↑/↓` on changes > `Esc` > `⌘ 0`
 #### Commit and push
 `⌥ ⌘ K`
+#### Previous difference
+`⌘ 9`
+#### Next difference
+`⌘ 0`
 #### Show history
 `⌃ P`
 #### Show history for selection
@@ -156,6 +164,11 @@
   * `/Users/larryliu/go`
   * Use GOPATH that's defined in system environment
 
+
 ## REFERENCES
 * https://www.jetbrains.com/help/go/using-code-editor.html
-* Go Doc comments: https://go.dev/doc/comment
+* Go Documentation: https://go.dev/doc/
+* Go code comments: https://go.dev/doc/comment
+* Go garbage collector: https://go.dev/doc/gc-guide
+* Go fuzzing: https://go.dev/security/fuzz/
+  * Look into fuzz tests 

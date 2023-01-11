@@ -19,4 +19,5 @@ func (myStr MyString) reverse() string {
 func main() {
 	myStr := MyString("OLLEH")
 	fmt.Println(myStr.reverse())
+	fmt.Println(myStr)
 }

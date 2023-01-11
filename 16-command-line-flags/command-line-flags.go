@@ -53,4 +53,6 @@ func main() {
 	// Read the i'th positional argument
 	i := 0
 	fmt.Printf("Positional argument at index %d: %v\n", i, flag.Arg(i))
+
+	//go run command-line-flags.go -name=LL -age=26 -country=usa -hobbies=tennis,basketball,running 5 4 6 7 asdf
 }
