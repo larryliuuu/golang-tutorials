@@ -42,6 +42,8 @@
 `⌥` > Optionally `double-click` words
 #### Replace all
 `⌘ F` > `⌃ ⇧ G` > Deselect anything via `⌥`
+#### Comment
+`⌘ /`
 
 
 ## SEARCHING
@@ -105,8 +107,8 @@
 `⌃ S`
 #### Un-split all
 `⌃ U`
-#### Show Problems
-`⌃ P`
+#### Type info
+`⌃ ⇧ T`
 
 
 ## TESTING
@@ -122,14 +124,20 @@
 `⇧ ⌃ I`
 #### Evaluate expression
 `⌃ E`
+#### Scratch file
+`⇧ ⌘ N`
 
-## Version Control
+## VERSION CONTROL
 #### VCS pop-up
 `⌃ V`
 #### Commit
 `⌘ K`
 #### Commit and push
 `⌥ ⌘ K`
+#### Show history
+`⌃ P`
+#### Show history for selection
+`⌃ ⇧ P`
 
 
 ## LEGEND
@@ -148,4 +156,6 @@
   * `/Users/larryliu/go`
   * Use GOPATH that's defined in system environment
 
-
+## REFERENCES
+* https://www.jetbrains.com/help/go/using-code-editor.html
+* Go Doc comments: https://go.dev/doc/comment
