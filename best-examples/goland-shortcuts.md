@@ -2,101 +2,142 @@
 
 ## GO
 #### Go fmt
-```Shift ⌘ L```
+`⇧ ⌘ L`
 
 ## CODING
-#### Show package structure
-```Shift ⌘ P```
+#### Show context actions (fill all fields, ...)
+`⌥ Enter`
+#### Go to declaration
+`⌘ D`
+#### Show usages
+`⌘ U`
 #### Go to implementation
-```Shift ⌘ I```
-#### Show Usages
-```Shift ⌘ U```
-#### Fold / Unfold selection
-```⌘ .```
-#### Show Context Actions (Fill all fields, ...)
-```Alt Enter```
+`⌘ I`
+#### Show package structure
+`⌘ P`
+#### Type hierarchy
+`⌃ H`
+#### Fold / unfold selection
+`⌘ .`
 #### Generate
-```⌘ N```
-#### Smart Code Completion
-```Shift ⌘ Space```
+`⌘ N`
+#### Show parameter info
+`⇧ ⌘ P`
+#### Code completion: basic
+`⌃ Space`
+#### Code completion: type matching
+`⇧ ⌘ Space`
+#### Code completion: complete current statement
+`⇧ ⌘ Enter`
 
 ## EDITING
 #### Refactor
-```⌃ t```
+`⌃ T`
 #### Comment
-```⌃ /```
+`⌃ /`
 #### Multi-cursor select / deselect
-```⌥``` > Optionally ```double-click``` words
+`⌥` > Optionally `double-click` words
 #### Replace all
-```⌘ F``` > ```⌃ ⇧ G``` > Deselect anything via ```⌥```
+`⌘ F` > `⌃ ⇧ G` > Deselect anything via `⌥`
 
 ## SEARCHING
 #### Search everywhere
-```Shift Shift```
-
-&nbsp;&nbsp;&nbsp; Search Types ```⌘ O```
-
-&nbsp;&nbsp;&nbsp; Search Files ```Shift ⌘ O```
-
-&nbsp;&nbsp;&nbsp; Search Symbols ```Shift ⌘ S```
-
-&nbsp;&nbsp;&nbsp; Search Actions ```Shift ⌘ A```
+`⇧ ⇧`
+#### Search Types
+`⌘ O`
+#### Search Files
+`⇧ ⌘ O`
+#### Search Symbols
+`⇧ ⌘ S`
+#### Search Actions
+`⇧ ⌘ A`
 
 ## NAVIGATING
-#### Next File / Previous File
-```⌃ Tab / ⌃ Shift Tab```
+#### Move caret forward to next paragraph
+`⌃ A`
+#### Move caret backward to previous paragraph
+`⌃ B`
+#### Move caret to matching brace
+`⌃ M`
+#### Next file / previous file
+`⌃ Tab / ⌃ ⇧ Tab`
+#### Cursor Back / forward
+`⌘ [` / `⌘ ]`
+#### Navigation bar
+`⌘ ↑`
+#### Exit into Editor window
+`Esc`
 #### Go to line
-```⌘ L```
+`⌘ L`
 
-## VIEWING / SHOWING
+## SHOWING
 #### Show recent files
-```⌃ e```
+`⌘ E`
 #### Show opened file
-```Shift ⌘ E```
+`⇧ ⌘ E`
+#### Show Structure
+`⌘ T`
 #### Show Project Explorer
-```⌘ 1```
-#### Show Git log
-```⌘ 2```
-#### Show Terminal
-```⌘ T```
-#### Split and move right
-```⌃ S```
-#### Unplit all
-```⌃ U```
+`⌘ 1`
+#### Show Git Log
+`⌘ 2`
+#### Show Debug
+`⌘ 2`
+#### Show Run
+`⌘ 4`
 #### Show Problems
-```⌘ 6```
+`⌘ 5`
+#### Show Terminal
+`⌘ 6`
+#### Show TODO
+`⌘ 7`
+#### Show Find
+`⌘ 8`
+#### Show Services
+`⌘ 9`
+#### Split and move right
+`⌃ S`
+#### Un-split all
+`⌃ U`
+#### Show Problems
+`⌃ P`
+
 
 ## TESTING
 #### Run/Debug
-```⌃ R / ⌃ D```
+`⌃ R / ⌃ D`
 #### Stop
-```⌥ ⌘ S```
-#### Step Over
-```⌃ O```
-#### Step Into
-```⌃ I```
-#### Step Out Of
-```Shift ⌃ I```
-#### Evaluate Expression
-```⌃```
+`⌥ ⌘ S`
+#### Step over
+`⌃ O`
+#### Step into
+`⌃ I`
+#### Step out of
+`⇧ ⌃ I`
+#### Evaluate expression
+`⌃ E`
+
+## Version Control
+#### VCS pop-up
+`⌃ V`
+#### Commit
+`⌘ K`
+#### Commit and push
+`⌥ ⌘ K`
 
 ## LEGEND
-```⌘``` Command
-
-```⌃``` Ctrl
-
-```⌥``` Option/Alt
-
-```⇧``` Shift
-
-```⇪``` Caps Lock
-
-```fn``` Function
+`⌘` Command `⌃` Ctrl `⇧` Shift `⌥` Option/Alt
 
 ## SETTINGS
 #### Keymap
-```⌘ ,``` > ```Keymap```
-#### Export Keymap Settings
-```File``` > ```Manage IDE Settings``` > ```Export Settings``` > ```Keymap```
+`⌘ ,` > `Keymap`
+#### Export keymap settings
+`File` > `Manage IDE Settings` > `Export Settings` > `Keymap`
+#### Go
+* `GOROOT`
+  * `/usr/local/go`
+* `GOPATH`
+  * `/Users/larryliu/go`
+  * Use GOPATH that's defined in system environment
 
 
