@@ -1,8 +1,10 @@
 # GoLand IDE Shortcuts
 
+
 ## GO
 #### Go fmt
 `⇧ ⌘ L`
+
 
 ## CODING
 #### Show context actions (fill all fields, ...)
@@ -30,6 +32,7 @@
 #### Code completion: complete current statement
 `⇧ ⌘ Enter`
 
+
 ## EDITING
 #### Refactor
 `⌃ T`
@@ -39,6 +42,7 @@
 `⌥` > Optionally `double-click` words
 #### Replace all
 `⌘ F` > `⌃ ⇧ G` > Deselect anything via `⌥`
+
 
 ## SEARCHING
 #### Search everywhere
@@ -52,9 +56,10 @@
 #### Search Actions
 `⇧ ⌘ A`
 
+
 ## NAVIGATING
 #### Move caret forward to next paragraph
-`⌃ A`
+`⌃ N`
 #### Move caret backward to previous paragraph
 `⌃ B`
 #### Move caret to matching brace
@@ -69,6 +74,7 @@
 `Esc`
 #### Go to line
 `⌘ L`
+
 
 ## SHOWING
 #### Show recent files
@@ -125,8 +131,10 @@
 #### Commit and push
 `⌥ ⌘ K`
 
+
 ## LEGEND
 `⌘` Command `⌃` Ctrl `⇧` Shift `⌥` Option/Alt
+
 
 ## SETTINGS
 #### Keymap
